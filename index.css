@@ -83,23 +83,23 @@ nav {
 /* *************************************************************media query**************************************** */
 @media screen and (max-width: 568px) {
   .paa {
-    height: 380px;
-    width: 20px;
+    height: 480px;
+    width: 30px;
     background-color: teal;
   }
   .btn {
     background-color: black;
     color: #ffffff;
-    height: 30px;
-    width: 30px;
+    height: 55px;
+    width: 60px;
     margin: 2px 4px;
     position: relative;
     left: 30px;
     box-shadow: 1px 1px 1px 1px rgb(35, 212, 88);
   }
   #inp {
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 250px;
     margin-bottom: 4px;
     position: relative;
     top: 5px;
@@ -119,15 +119,15 @@ nav {
   }
   #forms {
     background-color: grey;
-    width: 200px;
-    height: 350px;
+    width: 300px;
+    height: 450px;
 
     border: 2px solid black;
     box-shadow: 4px 4px 5px 5px black;
   }
   .pa {
-    width: 230px;
-    height: 380px;
+    width: 350px;
+    height: 480px;
     background-color: yellow;
   }
 }
