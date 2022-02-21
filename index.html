@@ -120,11 +120,18 @@
               class="btn"
             />
             <input
-              id="clr"
+              class="btn"
               type="button"
-              value="Clear All"
+              value="Clear"
+              onclick="forms.answer.value = forms.answer.value.substring(0, forms.answer.value.length - 1)"
+            />
+            <input
+              class="btn"
+              type="button"
+              value="AC"
               onclick="forms.answer.value ='' "
             />
+
             <nav class="thank"><h1>Java-Script</h1></nav>
           </form>
         </div>
@@ -132,3 +139,4 @@
     </div>
   </body>
 </html>
+
