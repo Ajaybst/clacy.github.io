@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.bac {
+  background: linear-gradient(grey, black);
+  height: 100vh;
+}
+.p {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+.pa {
+  width: 400px;
+  height: 550px;
+  background-color: yellow;
+}
+.paa {
+  height: 550px;
+  width: 100px;
+  background-color: teal;
+}
+#forms {
+  background-color: grey;
+  width: 300px;
+  height: 500px;
+
+  border: 2px solid black;
+  box-shadow: 20px 40px 40px 10px black;
+}
+.btn {
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: black;
+  color: #ffffff;
+  height: 60px;
+  width: 60px;
+  margin: 3px 6px;
+  position: relative;
+  left: 30px;
+  box-shadow: 1px 1px 1px 1px rgb(35, 212, 88);
+}
+#inp {
+  background-color: white;
+  height: 50px;
+  width: 250px;
+  margin-bottom: 4px;
+  position: relative;
+  top: 5px;
+  left: 20px;
+  box-shadow: 2px 0px 2px 2px rgb(35, 212, 88);
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#clr {
+  width: 136px;
+  height: 60px;
+  position: relative;
+  left: 37px;
+  background-color: black;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgb(35, 212, 88);
+}
+nav {
+  opacity: 0.7;
+  height: 80px;
+  width: auto;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 20px 5px rgb(35, 212, 88);
+  text-align: center;
+  background-color: black;
+  color: white;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* *************************************************************media query**************************************** */
+@media screen and (max-width: 568px) {
+  .paa {
+    height: 380px;
+    width: 20px;
+    background-color: teal;
+  }
+  .btn {
+    background-color: black;
+    color: #ffffff;
+    height: 30px;
+    width: 30px;
+    margin: 2px 4px;
+    position: relative;
+    left: 30px;
+    box-shadow: 1px 1px 1px 1px rgb(35, 212, 88);
+  }
+  #inp {
+    height: 50px;
+    width: 150px;
+    margin-bottom: 4px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    box-shadow: 2px px 2px 2px rgb(35, 212, 88);
+    background-color: black;
+    color: #ffffff;
+  }
+  #clr {
+    width: 76px;
+    height: 40px;
+    position: relative;
+    left: 31px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(35, 212, 88);
+  }
+  #forms {
+    background-color: grey;
+    width: 200px;
+    height: 350px;
+
+    border: 2px solid black;
+    box-shadow: 4px 4px 5px 5px black;
+  }
+  .pa {
+    width: 230px;
+    height: 380px;
+    background-color: yellow;
+  }
+}
