@@ -31,6 +31,12 @@
   border: 2px solid black;
   box-shadow: 20px 40px 40px 10px black;
 }
+.thank {
+  width: 503px;
+  position: relative;
+  top: 100px;
+  left: -103px;
+}
 .btn {
   font-size: 20px;
   font-weight: bolder;
@@ -82,6 +88,10 @@ nav {
 }
 /* *************************************************************media query**************************************** */
 @media screen and (max-width: 568px) {
+  .bac {
+    background-color: red;
+    height: 100vh;
+  }
   .paa {
     height: 480px;
     width: 30px;
@@ -102,28 +112,35 @@ nav {
     width: 250px;
     margin-bottom: 4px;
     position: relative;
-    top: 5px;
+    top: 4px;
     left: 20px;
     box-shadow: 2px px 2px 2px rgb(35, 212, 88);
     background-color: black;
     color: #ffffff;
   }
   #clr {
-    width: 76px;
-    height: 40px;
+    width: 136px;
+    height: 55px;
     position: relative;
     left: 31px;
-    background-color: black;
+    background-color: black(209, 20, 20);
     color: white;
     box-shadow: 2px 2px 2px 2px rgb(35, 212, 88);
   }
   #forms {
     background-color: grey;
     width: 300px;
-    height: 450px;
+    height: 100%;
 
     border: 2px solid black;
     box-shadow: 4px 4px 5px 5px black;
+  }
+  .thank {
+    width: 383px;
+    position: relative;
+    top: 60px;
+    left: -34px;
+    font-size: 40px;
   }
   .pa {
     width: 350px;
@@ -131,3 +148,4 @@ nav {
     background-color: yellow;
   }
 }
+
